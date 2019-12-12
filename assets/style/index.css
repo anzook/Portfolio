@@ -6,3 +6,9 @@
 .demo-layout-transparent .mdl-layout__drawer-button {
   color: black;
 }
+
+#logo-main {
+  width: auto;
+  height: 75vh;
+}
+

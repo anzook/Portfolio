@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function (event) {  //waits for pa
     });
     projBtn.addClass("mdl-button mdl-js-button mdl-button--colored");
     // projBtn.append("<i class=\"material-icons\">favorite</i>");
-      
+
     $("#content-area").append(logo);
     $("#content-area").append(welcome);
     $("#content-area").append(projBtn);
@@ -26,11 +26,11 @@ document.addEventListener("DOMContentLoaded", function (event) {  //waits for pa
     $("#welcome-text").addClass("animatedSlowFade fadeIn");
     $("#projects-btn").addClass("animatedSlowFade fadeIn");
 
-    setTimeout(function() {
+    setTimeout(function () {
         // $("#content-area").append(projBtn);
     }, 6000);
-    
-    
+
+
     $("#projects-btn").on("click", function (event) {
         event.preventDefault();
         $("#content-area").empty();
@@ -43,9 +43,9 @@ document.addEventListener("DOMContentLoaded", function (event) {  //waits for pa
             var titleDiv = $("<div>")
             var title = $("<p>")
             titleDiv.addClass("mdl-card__title");
-           title.addClass("mdl-card__title-text");
-           title.attr("style", "font-size: 18px; font-weight: bold; text-align: center;");
-           title.html(portfolio[i].title);
+            title.addClass("mdl-card__title-text");
+            title.attr("style", "font-size: 18px; font-weight: bold; text-align: center;");
+            title.html(portfolio[i].title);
             titleDiv.append(title);
 
             var info = $("<div>");
@@ -63,5 +63,5 @@ document.addEventListener("DOMContentLoaded", function (event) {  //waits for pa
             $("#content-area").append(item).addClass("animatedFastFade fadeIn");
         }
     });
-    
+
 });

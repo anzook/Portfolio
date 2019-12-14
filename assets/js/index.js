@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function (event) {  //waits for pa
     welcome.attr("id", "welcome-text");
 
     const projBtn = $('<button/>', {
-        text: 'Projects',
+        text: 'See the Projects',
         id: "projects-btn",
         value: 'on'
     });

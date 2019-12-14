@@ -14,9 +14,9 @@ Pages include:
 
 * index.css (basic modifications and animations on top of mdl)
 
-## Contributing
+## Updating
 
-Please feel free to improve, fix, or simply add questions to the question.js files! Add your own question bank and design a custom quiz to your needs.
+Please contact me with ways to improve, fix, or simply neat ideas to improve the site. If you wish to use this format, it can be easily updated and maintained by updating the portfolio.js file.
 
 ## Acknowledgements and Credits
 Framework is Material Design Lite (mdl) : https://getmdl.io/

@@ -10,15 +10,28 @@ document.addEventListener("DOMContentLoaded", function (event) {  //waits for pa
     const welcome = $("<div>");
     welcome.text("Welcome to Alexander N Zook's Portfolio.")
     welcome.attr("id", "welcome-text");
-    
+
+    const projBtn = $('<button/>', {
+        text: 'Projects',
+        id: "projects-btn",
+        value: 'on'
+    });
+    projBtn.addClass("mdl-button mdl-js-button mdl-button--colored");
+    // projBtn.append("<i class=\"material-icons\">favorite</i>");
+      
     $("#content-area").append(logo);
     $("#content-area").append(welcome);
+    $("#content-area").append(projBtn);
     $("#logo-main").addClass("animatedFastFade fadeIn");
     $("#welcome-text").addClass("animatedSlowFade fadeIn");
+    $("#projects-btn").addClass("animatedSlowFade fadeIn");
 
+    setTimeout(function() {
+        // $("#content-area").append(projBtn);
+    }, 6000);
     
     
-    document.addEventListener("click", function (event) {
+    $("#projects-btn").on("click", function (event) {
         event.preventDefault();
         $("#content-area").empty();
 
@@ -42,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function (event) {  //waits for pa
             var linkDiv = $("<div>");
             linkDiv.addClass("mdl-card__actions");
             var link = $("<a />");
-            link.text("Details").attr("href", portfolio[i].url);
+            link.text("Details").attr("href", portfolio[i].url).attr("target", "_blank");
             link.attr("style", "color: dodgerblue; text-decoration: none;");
             linkDiv.append(link);
 

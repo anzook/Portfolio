@@ -28,11 +28,13 @@ i {
   justify-content: center;
 }
 
+ /* footer  */
 
-footer {
-  position: absolute;
+#footer {
+  /* position: absolute; */
+  float: bottom;
   bottom: 0;
-  height: 25px;
+  min-height: 25px;
   width: 100%;
   align-items: center;
   margin-top: 2px;

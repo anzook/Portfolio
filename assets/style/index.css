@@ -17,6 +17,12 @@ i {
   top: 2px;
 }
 
+.fa-headers {
+  position: relative;
+  top: -12px;
+  right: 16px;
+}
+
 #logo-main {
   width: auto;
   height: 75vh;
@@ -28,13 +34,36 @@ i {
   justify-content: center;
 }
 
+html {
+  position: relative;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#mdl-wrapper {
+    box-sizing: border-box;
+    min-height: 100%;
+    padding: 0 0 25px;
+    position: relative;
+}
+
+.project-link:hover{
+  text-decoration: underline;
+}
+
+#welcome-text{
+  font-size: 22px;
+}
+
  /* footer  */
 
 #footer {
   /* position: absolute; */
   float: bottom;
   bottom: 0;
-  min-height: 25px;
+  left: 0;
+  height: 25px;
   width: 100%;
   align-items: center;
   margin-top: 2px;

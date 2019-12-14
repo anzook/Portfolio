@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function (event) {  //waits for pa
             info.html(portfolio[i].tagline);
 
             var linkDiv = $("<div>");
-            linkDiv.addClass("mdl-card__actions");
+            linkDiv.addClass("mdl-card__actions project-link");
             var link = $("<a />");
             link.text("Details").attr("href", portfolio[i].url).attr("target", "_blank");
             link.attr("style", "color: dodgerblue; text-decoration: none;");
@@ -63,4 +63,5 @@ document.addEventListener("DOMContentLoaded", function (event) {  //waits for pa
             $("#content-area").append(item);
         }
     });
+    
 });

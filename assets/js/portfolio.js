@@ -2,13 +2,13 @@ const portfolio = [
     {
       title: "Project 1: The Cohort Collab",
       tagline: "A tailored and inforamtive job search apllication for coders",
-      url: "x = 8",
+      url: "https://anzook.github.io/The-Git-Gud-Team/jobsearch.html",
       type: "coding"
     },
     {
         title: "My Portfolio",
         tagline: "This very page by yours truly",
-        url: "https://anzook.github.io/The-Git-Gud-Team/jobsearch.html",
+        url: "https://github.com/anzook/Portfolio",
         type: "coding"
       },
       {

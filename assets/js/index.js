@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function (event) {  //waits for pa
             linkDiv.append(link);
 
             item.append(titleDiv).append(info).append(linkDiv);
-            $("#content-area").append(item);
+            $("#content-area").append(item).addClass("animatedFastFade fadeIn");
         }
     });
     
